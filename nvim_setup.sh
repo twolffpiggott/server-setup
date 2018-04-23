@@ -14,10 +14,13 @@ cd ~/.config/nvim
 ./venv.sh
 make test
 make
-pip install --user pycodestyle pyflakes flake8 vim-vint proselint yamllint
+# fix pycodestyle to version 2.3.1, avoiding incompatibility with v2.4.0
+pip install --user pycodestyle==2.3.1 pyflakes flake8 vim-vint proselint yamllint
 sudo apt-get install shellcheck
 sudo apt-get install silversearcher-ag
 # remove tmux delay between normal mode and insert mode
 echo 'set -sg escape-time 0' > ~/.tmux.conf
 echo 'setw -g mouse on' >> ~/.tmux.conf
 tmux source-file ~/.tmux.conf
+echo 'alias vim="nvim"' >> ~/.bash_profile
+source ~/.bash_profile
