@@ -7,6 +7,11 @@ Install pyenv with `pyenv_install.sh` and set the default python to 3.7.0 with `
 ## Setting up the default virtual environment
 Use `venv_setup.py`. `venv` is now an alias for `source ~/.venv/bin/activate`.
 
+## Set up basic vim config.
+```
+source vim_setup.py
+```
+
 ## Getting the nvim and dependencies set up
 Install all the necessaries using `nvim_setup.sh`. `vim` is now an alias for
 `nvim`.
