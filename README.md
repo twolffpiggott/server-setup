@@ -20,9 +20,9 @@ source tmux_setup.sh
 ## Install CUDA and CUDNN
 The currently configurated CUDA and CUDNN versions are supported by Tensorflow `1.7.0`.
 
-Firstly, download `libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb' into your home directory. Then:
+Firstly, download `libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb` into your home directory. Then:
 ```
-source ~/server-setup/cuda_install.sh
+source server-setup/cuda_install.sh
 source server-setup/cudnn_install.sh
 source server-setup/set_path_vars.sh
 ```
