@@ -115,7 +115,7 @@ ppft==1.6.4.7.1
 prompt-toolkit==1.0.15
 protobuf==3.5.2.post1
 ptyprocess==0.5.2
-py==1.5.3
+py==1.10.0
 py4j==0.10.6
 pyasn1==0.4.3
 pyasn1-modules==0.2.1
