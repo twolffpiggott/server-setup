@@ -13,7 +13,7 @@ bs4==0.0.1
 bt==0.2.5
 cached-property==1.4.2
 cachetools==2.1.0
-celery==4.2.0
+celery==5.2.2
 certifi==2018.1.18
 cffi==1.11.5
 chardet==3.0.4
