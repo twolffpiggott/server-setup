@@ -14,7 +14,7 @@ bt==0.2.5
 cached-property==1.4.2
 cachetools==2.1.0
 celery==4.2.0
-certifi==2018.1.18
+certifi==2022.12.7
 cffi==1.11.5
 chardet==3.0.4
 click==6.7
